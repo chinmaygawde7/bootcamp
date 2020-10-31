@@ -1,0 +1,21 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "Bootcamp page of College Time",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmaygawde7/bootcamp.git"
+  },
+  "author": "Chinmay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinmaygawde7/bootcamp/issues"
+  },
+  "homepage": "https://github.com/chinmaygawde7/bootcamp#readme"
+}
