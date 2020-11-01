@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/chinmaygawde7/bootcamp/issues"
   },
-  "homepage": "https://github.com/chinmaygawde7/bootcamp#readme"
+  "homepage": "https://github.com/chinmaygawde7/bootcamp#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
 }

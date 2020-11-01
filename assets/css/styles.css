@@ -44,6 +44,14 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 
+.liststyle{
+
+float:left;
+margin:0 80px;
+text-align: center;
+}
+
+
 
 .clearfix:after {
   content: ".";
@@ -316,10 +324,9 @@ body {
 
 a.main-button-slider {
   font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
+  border-radius: 10px;
+  
   background-color: #ff589e;
-  text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
