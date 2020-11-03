@@ -766,6 +766,13 @@ welcome
   }
 }
 
+@media (max-width: 400px) {
+  .welcome-area {
+    margin-bottom: 30px;
+  }
+}
+
+
 
 /* 
 ---------------------------------------------
