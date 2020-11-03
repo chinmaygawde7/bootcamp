@@ -681,10 +681,11 @@ welcome
 }
 
 .welcome-area .header-text h1 {
+  position: relative;
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.1px;
   margin-bottom: 30px;
   color: #fff;
 }
@@ -727,7 +728,7 @@ welcome
   }
    .welcome-area .header-text h1 {
     font-size: 22px;
-    line-height: 30px;
+    line-height: 60px;
     margin-bottom: 15px;
   }
   .welcome-area .header-text p {
@@ -737,6 +738,7 @@ welcome
 
 @media (max-width: 765px) {
   .welcome-area {
+    margin-top: 80px;
     margin-bottom: 100px;
   }
   .welcome-area .header-text {
