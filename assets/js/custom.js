@@ -9,7 +9,7 @@
 
 
 	// Scroll animation init
-	window.sr = new scrollReveal();
+	
 	
 
 	// Menu Dropdown Toggle
@@ -29,7 +29,9 @@
 			if (target.length) {
 				var width = $(window).width();
 				if(width < 991) {
-						
+					$('html,body')({
+						scrollTop: (window) - 15
+					}, 700);
 				}else{
 					$('html,body').animate({
 						scrollTop: (target.offset().top) - 130
