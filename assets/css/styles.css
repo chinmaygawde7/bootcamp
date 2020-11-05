@@ -722,9 +722,11 @@ welcome
   }
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation:landscape) and (min-device-width: 319px) 
+and (max-device-width: 480px)  {
   .header-text{
-    margin-top: 200px;
+    margin-top: 150px;
+    
   }
 }
 
