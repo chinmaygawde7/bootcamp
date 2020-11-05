@@ -65,9 +65,9 @@
 }
 .owl-prev:before,
 .owl-next:before{
-    content: "\f053";
+    content: "";
     font-family: "Font Awesome 5 Free"; font-weight: 900;
     font-size: 20px;
     color: #1f487e;
 }
-.owl-next:before{ content: "\f054"; }
+.owl-next:before{ content: ""; }
